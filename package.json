@@ -1,0 +1,27 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "description": "Book shop API + client methods (Node/Express/Axios)",
+  "main": "server.js",
+  "packages": {
+    "": {
+      "name": "node",
+      "version": "1.0.0",
+      "license": "ISC"
+    }
+  },
+  "scripts": {
+    "client": "node client.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.1",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
